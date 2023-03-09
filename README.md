@@ -1,4 +1,4 @@
-# AIEP-Hi-githubPages
+# AIEP-Repo-Ejercicios
 Repositorio para AIEP, Hola mundo desplegado en github pages.
 
 ## Modificando el Readme para hacer un commits
