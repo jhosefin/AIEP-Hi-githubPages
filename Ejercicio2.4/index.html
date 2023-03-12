@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Registro</h1>
+    </header>
+    <form>
+        <fieldset>
+            <label for="nombre">Nombres</label>
+            <input type="text" id="nombre" required>
+
+            <label for="apellidoPaterno">Apellido paterno</label>
+            <input type="text" id="apellidoPaterno" required>
+
+            <label for="apellidoMaterno">Apellido materno</label>
+            <input type="text" id="apellidoMaterno" required>
+
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" required>
+        </fieldset>
+        <fieldset>
+        <label for="clave">Contraseña</label>
+        <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="debe tener al menos 8 caracteres y contener al menos una letra mayúscula, una letra minúscula y un número" required id="clave">
+
+        <label >Confirmar tu contraseña</label>
+        <input type="password" name="confirm_password" required>
+        </fieldset>
+
+        <fieldset>
+        <label>País de Residencia: </label>
+        <select name="paises" id="paises" required>
+            <option value="">Paises</option>
+            <option value="c">Chile</option>
+            <option value="p">Perú</option>
+            <option value="c">Colombia</option>
+            <option value="c">Ecuador</option>
+            <option value="c">Bolivia</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+        <label>Fecha de Nacimiento: </label>
+        <select name="dia" required>
+            <option value="">Día</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>>
+        <select name="mes" required>
+            <option value="">Mes</option>
+            <option value="e">Enero</option>
+            <option value="f">Febrero</option>
+            <option value="m">Marzo</option>
+            <option value="a">Abril</option>
+            <option value="m">Mayo</option>
+            <option value="j">Junio</option>
+            <option value="j">Julio</option>
+            <option value="a">Agosto</option>
+            <option value="s">Septiembre</option>
+            <option value="o">Octubre</option>
+            <option value="n">Noviembre</option>
+            <option value="d">Diciembre</option>
+        </select>>
+        <select name="año" required>
+            <option value="">Año</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+        </select>>
+        </fieldset>
+
+        <fieldset>
+            <legend>Genero</legend>
+            <label>
+                <input type="radio" value="Masculino" >Masculino
+            </label>
+            <label>
+                <input type="radio" value="Femenino" >Femenino
+            </label>
+            <label>
+                <input type="radio" value="Otro" >Otro
+            </label>
+        </fieldset>
+    
+        <label><input type="checkbox" value="first_checkbox" required> Acepta términos y condiciones</label><br>
+    
+    </form>
+    
+</body>
+</html>
