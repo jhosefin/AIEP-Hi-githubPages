@@ -3,3 +3,131 @@ Usar propiedades CSS para trabajo con texto, fondos, bordes, dimensiones y otros
 Aprovechar la cascada de CSS para no repetir código
 Usar el modelo de cajas de CSS para el espacio entre elementos
 En esta instancia NO es necesario preocuparse del maquetado o layout */
+
+body{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #333;
+   font-size: 1rem;
+   line-height: 1.6em;
+   margin: 0;
+}
+
+h1{
+   font-size: 2rem;
+   line-height: 1.3em;
+}
+
+p{
+   margin-bottom: 1.6em;
+}
+.container{
+   width: 85%;
+   max-width: 59rem;
+   margin: 0 auto;
+}
+.container2{
+   width: 120%;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+.header{
+   background: #333;
+   color: white;
+   padding: 1rem 0;
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+
+}
+.logo-nav-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+#logo{
+height: 8rem;
+width: 8rem;
+border-radius: 4rem;
+
+}
+.header a{
+   color: white;
+text-decoration: none;
+}
+.navigator ul{
+margin: 0;
+margin-left: 10rem;
+padding: 0;
+list-style: none;
+}
+.navigator ul li {
+   display: inline-block;
+}
+.navigator ul li a{
+   display: block;
+   padding: 0.5rem 1rem;
+   transition: all 0.4s linear;
+   border-radius: 5px;
+}
+
+.navigator ul li a:hover{
+   background: #4a4a4a;
+}
+main{
+   padding-top: 12rem;
+   float: left;
+}
+main img {
+	max-width: 30%;
+	margin-bottom: 20px;
+}
+
+.section-lateral {
+   width: 185px;
+   height: 400px;
+   float: left;
+   margin-top: 15rem;
+}
+.section-lateral img{
+   width: 12rem;
+}
+
+footer{
+   background-color: #f2f2f2;
+   padding: 4rem 0;
+   text-align: center;
+   clear: both;
+   width: 80rem;
+   height: 50px;
+
+}
+
+
+
+/* @media only screen and (max-width: 767px){
+   .navigator{
+      width: 100%;
+      margin-top: 1rem;
+      }
+      .navigator ul{
+         display: none;
+      }
+      .navigator ul.show{
+         display: block;
+      }
+      .navigator ul li {
+         display: block;
+      }
+      .navigator ul li a{
+         display: block;
+         padding: 0.5rem 0;
+         transition: all 0.4s linear;
+         border-radius: 5px;
+      }
+      .navigator ul li a:hover{
+         background: #4a4a4a;
+      }
+} */
