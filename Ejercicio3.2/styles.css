@@ -1,0 +1,120 @@
+body{
+    width: 510px;
+    float: left;
+    margin-right: 28px;
+    text-shadow: none;
+    font-family: "Montserrat",sans-serif!important;
+}
+.container{
+    display: block;
+    height: 220px;
+    width: 525px;
+    border:1px solid #cbcbcb;
+    border-radius: 3px;
+}
+.cuadro-blanco{
+    height: 206px;
+    width: 500px;
+    display: block;
+    border:#ccd4e4 solid 1px;
+    border-radius: 2px;
+    background-color: #fff;
+    padding: 4px 5px 5px 4px;
+    margin-right: 10px;
+    float: left;
+}
+
+h1{
+    color: #224291;
+    font-size: 2.6em;
+    display: block;
+    font-weight: bold;
+    line-height: 28px;
+}
+h2{
+    display: block;
+    font-size: 2em;
+    color: #224baf;
+    text-shadow: 0 1px 1px #fff;
+    margin: 10px 0;
+    font-weight: normal;
+}
+ol span{
+    color: #666;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 1em;
+     list-style-type:decimal ;
+     list-style: none;
+
+}
+ol li{
+    color: #687eb2;
+    text-align: justify;
+    font-size: 1.2em;
+    text-shadow: none;
+
+}
+p{
+    text-align: justify;
+    color: #666;
+    font-size: 1.2em;
+}
+p a{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #21408c;
+    line-height: 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+table{
+    width: 505px;
+    border-bottom: 1px solid #d6deeb;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.columna-principal{
+   background: #224baf;
+   height: 40px;
+}
+.primera{
+    width: 110px;
+    text-align: center;
+    padding-left: 10px;
+    border-left: 0;
+}
+.ultima{
+    width: 70px;
+    text-align: center;
+    padding-right: 10px;
+    border-right: 0;
+}
+th{
+    color: #fff;
+    font: 13px Arial;
+    height: 28px;
+    padding-right: 6px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-right: 1px solid #284fac;
+}
+.tc{
+    color: #224baf;
+    background-color: #c6d0e5;
+    border: 1px solid white;
+    font-size: 1em;
+}
+td{
+    text-align: center;
+    color: #666;
+    font: 13px Arial;
+    height: 20px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80px;
+    border-top: 1px solid #d9dfeb;
+    border-right: 1px solid #d9dfeb;
+}
