@@ -1,0 +1,255 @@
+#layout-01-g{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    gap: 7px;
+    margin: 1rem;
+}
+
+#layout-01-g header{
+grid-column: 1/6;
+
+}
+#layout-01-g nav{
+    grid-column: 1/2; grid-row: 2/7;
+}
+#layout-01-g footer{
+    grid-column: 2/6; grid-row: 6/8;
+}
+#layout-01-g aside{
+    grid-column: 5/6; grid-row: 2/6;
+}
+#layout-01-g article{
+    grid-column: 2/5; grid-row: 2/6;
+}
+
+#layout-02-g{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    gap: 7px;
+    margin: 1rem;
+}
+
+#layout-02-g header{
+grid-column: 1/6;
+
+}
+#layout-02-g nav{
+    grid-column: 1/2; grid-row: 2/6;
+}
+#layout-02-g footer{
+    grid-column: 1/6;
+}
+#layout-02-g aside{
+    grid-column: 5/6; grid-row: 2/6;
+}
+#layout-02-g article{
+    grid-column: 2/5; grid-row: 2/6;
+}
+
+#layout-03-g{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 100px);
+gap: 7px;
+margin: 1rem;
+}
+
+#layout-03-g header{
+grid-column: 1/6;
+
+}
+#layout-03-g nav{
+    grid-column: 4/5; grid-row: 2/6;
+}
+#layout-03-g footer{
+    grid-column: 1/6;
+}
+#layout-03-g aside{
+    grid-column: 5/6; grid-row: 2/6;
+}
+#layout-03-g article{
+    grid-column: 1/4; grid-row: 2/6;
+}
+
+#layout-04-g{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 100px);
+gap: 7px;
+margin: 1rem;
+}
+
+#layout-04-g header{
+grid-column: 1/6;
+
+}
+#layout-04-g nav{
+    grid-column: 4/5; grid-row: 2/7;
+}
+#layout-04-g footer{
+    grid-column: 1/4;
+}
+#layout-04-g aside{
+    grid-column: 5/6; grid-row: 2/7;
+}
+#layout-04-g article{
+    grid-column: 1/4; grid-row: 2/6;
+}
+
+#layout-05-g{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 100px);
+gap: 7px;
+margin: 1rem;
+}
+
+#layout-05-g header{
+grid-column: 2/6;
+
+}
+#layout-05-g nav{
+    grid-column: 1/2; grid-row: 1/7;
+}
+#layout-05-g footer{
+    grid-column: 2/6;
+}
+#layout-05-g aside{
+    grid-column: 5/6; grid-row: 2/6;
+}
+#layout-05-g article{
+    grid-column: 2/5; grid-row: 2/6;
+}
+
+#layout-06-g{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 100px);
+gap: 7px;
+margin: 1rem;
+}
+
+#layout-06-g header{
+grid-column: 2/6;
+
+}
+#layout-06-g nav{
+    grid-column: 1/2; grid-row: 1/6;
+}
+#layout-06-g footer{
+    grid-column: 1/6;
+}
+#layout-06-g aside{
+    grid-column: 2/6; grid-row: 5/6;
+}
+#layout-06-g article{
+    grid-column: 2/6; grid-row: 2/5;
+}
+
+#layout-07-g{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 100px);
+gap: 7px;
+margin: 1rem;
+}
+
+#layout-07-g header{
+grid-column: 2/6;
+
+}
+#layout-07-g nav{
+    grid-column: 1/2; grid-row: 1/7;
+}
+#layout-07-g footer{
+    grid-column: 2/6;
+}
+#layout-07-g aside{
+    grid-column: 2/6; grid-row: 5/6;
+}
+#layout-07-g article{
+    grid-column: 2/6; grid-row: 2/5;
+}
+
+#layout-08-g{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 100px);
+gap: 7px;
+margin: 1rem;
+}
+
+#layout-08-g header{
+grid-column: 1/6;
+
+}
+#layout-08-g nav{
+    grid-column: 1/2; grid-row: 4/7;
+}
+#layout-08-g footer{
+    grid-column: 2/6;
+}
+#layout-08-g aside{
+    grid-column: 1/2; grid-row: 2/4;
+}
+#layout-08-g article{
+    grid-column: 2/6; grid-row: 2/6;
+}
+
+#layout-09-g{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 100px);
+gap: 7px;
+margin: 1rem;
+}
+
+#layout-09-g header{
+grid-column: 1/6;
+
+}
+#layout-09-g nav{
+    grid-column: 1/2; grid-row: 2/5;
+}
+#layout-09-g footer{
+    grid-column: 2/6;
+}
+#layout-09-g aside{
+    grid-column: 1/2; grid-row: 5/7;
+}
+#layout-09-g article{
+    grid-column: 2/6; grid-row: 2/6;
+}
+
+#layout-10-g{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 100px);
+gap: 7px;
+margin: 1rem;
+}
+
+#layout-10-g header{
+grid-column: 1/5;
+
+}
+#layout-10-g nav{
+    grid-column: 1/2; grid-row: 2/7;
+}
+#layout-10-g footer{
+    grid-column: 2/6;
+}
+#layout-10-g aside{
+    grid-column: 6/5; grid-row: 1/2;
+}
+#layout-10-g article{
+    grid-column: 2/6; grid-row: 2/6;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
