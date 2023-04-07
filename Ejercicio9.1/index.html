@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulario de validación</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form>
+        <label for="rut">RUT:</label>
+        <input type="text" id="rut" name="rut"><br><br>
+        <span id="rut-error"></span>
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <span id="nombre-error"></span>
+        
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion"><br><br>
+        <span id="direccion-error"></span>
+
+        <label for="comuna">Comuna:</label>
+        <input type="text" id="comuna" name="comuna"><br><br>
+        <span id="comuna-error"></span>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono"><br><br>
+        <span id="telefono-error"></span>
+
+        <label for="correo">Email:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+</body>
+<script src="./index.js"></script>
+</html>
